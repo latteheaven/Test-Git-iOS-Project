@@ -21,6 +21,7 @@
 		46015E0D1954998200E414BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46015DEF1954998200E414BD /* UIKit.framework */; };
 		46015E151954998200E414BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46015E131954998200E414BD /* InfoPlist.strings */; };
 		46015E171954998200E414BD /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46015E161954998200E414BD /* Git_TestTests.m */; };
+		46015E2219549BAC00E414BD /* LHTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 46015E2119549BAC00E414BD /* LHTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		46015E121954998200E414BD /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		46015E141954998200E414BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46015E161954998200E414BD /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		46015E2019549BAC00E414BD /* LHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHTest.h; sourceTree = "<group>"; };
+		46015E2119549BAC00E414BD /* LHTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				46015E011954998200E414BD /* LHViewController.m */,
 				46015E031954998200E414BD /* Images.xcassets */,
 				46015DF21954998200E414BD /* Supporting Files */,
+				46015E2019549BAC00E414BD /* LHTest.h */,
+				46015E2119549BAC00E414BD /* LHTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				46015DFC1954998200E414BD /* LHAppDelegate.m in Sources */,
 				46015DF81954998200E414BD /* main.m in Sources */,
 				46015E021954998200E414BD /* LHViewController.m in Sources */,
+				46015E2219549BAC00E414BD /* LHTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
